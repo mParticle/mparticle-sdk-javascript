@@ -52,7 +52,8 @@
         "lint": "eslint src/ test/src/",
         "gts:check": "gts check",
         "gts:fix": "gts fix",
-        "prettier": "node_modules/.bin/prettier --check \"**/*.js\""
+        "prettier": "node_modules/.bin/prettier --check \"**/*.js\"",
+        "prepublishOnly": "sh release.sh"
     },
     "pre-commit": [
         "lint"
