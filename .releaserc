@@ -1,6 +1,6 @@
 {
     "branches": ["master"],
-    "repositoryUrl": "https://github.com/rmi22186/rob-changelog-release-test",
+    "repositoryUrl": "https://github.com/mParticle/mparticle-web-sdk-internal",
     "tagFormat": "v${version}",
     "plugins": [
         ["@semantic-release/release-notes-generator", {
