@@ -1,5 +1,5 @@
 {
-    "branches": ["master"],
+    "branches": [{name: "githubAction/build-and-test"}],
     "repositoryUrl": "https://github.com/mParticle/mparticle-web-sdk-internal",
     "tagFormat": "v${version}",
     "plugins": [
@@ -11,7 +11,6 @@
         ["@semantic-release/exec", {
             "verifyReleaseCmd": "sh ./release.sh ${lastRelease.version} ${nextRelease.version}",
         }],
-
     ],
     "ci": false,
     "dryRun": true
