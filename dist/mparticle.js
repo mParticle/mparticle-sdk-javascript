@@ -719,8 +719,10 @@ var mParticle = (function () {
       TriggerUploadType: TriggerUploadType
     };
 
+    var version = "2.12.3";
+
     var Constants = {
-      sdkVersion: '2.12.2',
+      sdkVersion: version,
       sdkVendor: 'mparticle',
       platform: 'web',
       Messages: {

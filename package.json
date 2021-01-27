@@ -53,7 +53,7 @@
         "gts:check": "gts check",
         "gts:fix": "gts fix",
         "prettier": "node_modules/.bin/prettier --check \"**/*.js\"",
-        "prepublishOnly": "sh release.sh"
+        "prepublishOnly": "sh ./scripts/prePublishOnly.sh"
     },
     "pre-commit": [
         "lint"
